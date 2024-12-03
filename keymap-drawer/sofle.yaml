@@ -62,9 +62,9 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - '2'
-  - HOME
-  - PgUp
   - {t: '$$mdi:backspace$$', type: backspace}
+  - HOME
+  - PG UP
   layer1:
   - {t: '`', s: '~'}
   - F1
@@ -127,11 +127,11 @@ layers:
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - END
   - PgDn
-  - {t: '$$mdi:transfer$$', type: trans}
   '2':
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '~'
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
