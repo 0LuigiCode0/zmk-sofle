@@ -55,11 +55,11 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE  &kp F1  &kp F2     &kp F3     &kp F4     &kp F5    &mmv MOVE_UP    &kp F6  &kp F7  &kp F8  &kp F9   &kp F10        &kp MINUS
-&trans     &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans    &mmv MOVE_DOWN  &trans  &trans  &trans  &kp F11  &kp F12        &kp EQUAL
-&trans     &trans  &trans     &trans     &trans     &trans    &mmv MOVE_LEFT  &trans  &trans  &trans  &trans   &trans         &trans
-&trans     &trans  &trans     &trans     &trans     &trans    &mmv MOVE_LEFT  &trans  &trans  &trans  &trans   &trans         &trans
-&trans     &trans  &trans     &trans     &trans     &trans    &mmv MOVE_LEFT  &trans  &trans  &trans  &kp END  &kp PAGE_DOWN
+&kp GRAVE  &kp F1  &kp F2     &kp F3     &kp F4     &kp F5    &mmv MOVE_UP     &kp F6  &kp F7  &kp F8  &kp F9   &kp F10        &kp MINUS
+&trans     &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans    &mmv MOVE_DOWN   &trans  &trans  &trans  &kp F11  &kp F12        &kp EQUAL
+&trans     &trans  &trans     &trans     &trans     &trans    &mmv MOVE_LEFT   &trans  &trans  &trans  &trans   &trans         &trans
+&trans     &trans  &trans     &trans     &trans     &trans    &mmv MOVE_RIGHT  &trans  &trans  &trans  &trans   &kp BACKSLASH  &trans
+&trans     &trans  &trans     &trans     &trans     &trans    &mkp LCLK        &trans  &trans  &trans  &kp END  &kp PAGE_DOWN
             >;
 
             display-name = "layer1";
@@ -79,5 +79,3 @@
         };
     };
 };
-
-
