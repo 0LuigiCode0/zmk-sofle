@@ -61,7 +61,7 @@
 &kp GRAVE       &kp F1     &kp F2        &kp F3        &kp F4     &kp F5       &mmv MOVE_UP    &kp F6  &kp F7  &kp F8  &kp F9   &kp F10        &kp MINUS
 &kp Y           &kp U      &kp UP        &kp I         &kp O      &kp P        &mmv MOVE_DOWN  &trans  &trans  &trans  &kp F11  &kp F12        &kp EQUAL
 &kp H           &kp LEFT   &kp DOWN      &kp RIGHT     &kp J      &kp K        &mmv MOVE_LEFT  &trans  &trans  &trans  &trans   &trans         &trans
-&kp LEFT_SHIFT  &kp L      &kp N         &kp M         &mkp LCLK  &mkp RCLK    &mmv MOVE_LEFT  &trans  &trans  &trans  &trans   &trans         &trans
+&kp LEFT_SHIFT  &kp L      &kp N         &kp M         &mkp LCLK  &mkp RCLK    &mmv MOVE_LEFT  &trans  &trans  &trans  &trans   &kp BACKSLASH  &trans
 &trans          &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &trans     &trans       &mmv MOVE_LEFT  &trans  &trans  &trans  &kp END  &kp PAGE_DOWN
             >;
 
